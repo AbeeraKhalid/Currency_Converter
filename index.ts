@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 import inquirer from 'inquirer'
  import chalk from 'chalk'
+ console.log(chalk.bgMagentaBright("\n\n\t\t<<<WELCOME TO MY CURRENCY CONVERTER APP!!!>>>"))
   const Currency_conversion: any={
     PKR: 300,   //pakistani rupees currency
     SAR: 4.05, //Saudi Riyal

@@ -47,7 +47,7 @@ let to_Amount=Currency_conversion[toCurrency] //Exchange rate
 
 let base_Amount=amount / from_Amount
 let converted_Amount= base_Amount* to_Amount
-
+let roundedNum: number = Number(converted_Amount.toFixed(2));
 console.log(chalk.magentaBright.bold(converted_Amount));
 
 

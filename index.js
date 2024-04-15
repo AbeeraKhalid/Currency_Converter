@@ -1,16 +1,17 @@
+#! /usr/bin/env node
 import inquirer from 'inquirer';
 import chalk from 'chalk';
 const Currency_conversion = {
-    PKR: 300, //pakistani currency
-    SAR: 4.05, //SaudiRiyal
+    PKR: 300, //pakistani rupees currency
+    SAR: 4.05, //Saudi Riyal
     NZD: 1.82, //Newzealand$
-    RUD: 100.71, //Russianruble
-    QAR: 30.9, //qataririyal
-    USD: 1.08, //americandollar
-    TRY: 34.97, //turkeylira
-    AED: 3.96, // UAEDirhum
-    CNY: 7.83, //chinayaun
-    KWD: 0.33, //kuwaitdinar
+    RUD: 100.71, //Russian ruble
+    QAR: 30.9, //qatari riyal
+    USD: 1.08, //american dollar
+    TRY: 34.97, //turkey lira
+    AED: 3.96, // UAE Dirhum
+    CNY: 7.83, //china yaun
+    KWD: 0.33, //kuwait dinar
     EUR: 0.95 //european dollar
 };
 let currency_Answer = await inquirer.prompt([{

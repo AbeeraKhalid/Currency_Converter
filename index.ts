@@ -1,7 +1,5 @@
- #! /usr/bin/env node
- 
-
- import inquirer from 'inquirer'
+#! /usr/bin/env node
+import inquirer from 'inquirer'
  import chalk from 'chalk'
   const Currency_conversion: any={
     PKR: 300,   //pakistani rupees currency
@@ -50,3 +48,6 @@ let base_Amount=amount / from_Amount
 let converted_Amount= base_Amount* to_Amount
 
 console.log(chalk.magentaBright.bold(converted_Amount));
+
+
+ 
